@@ -5,3 +5,6 @@ LocalScript Shortened: loadstring(game:HttpGet('https://raw.githubusercontent.co
 
 This uses a light ui libary and its not obfuscated so u can modify anything 
 but dont use the same name.
+
+# Note
+This does only work on ChatService because we didnt add support for it yet.
