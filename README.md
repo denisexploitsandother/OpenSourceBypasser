@@ -7,4 +7,4 @@ This uses a light ui libary and its not obfuscated so u can modify anything
 but dont use the same name.
 
 # Note
-This does only work on ChatService because we didnt add support for it yet.
+This does only work on LegacyTextChatService because we didnt add support for it yet.
