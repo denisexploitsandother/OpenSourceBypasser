@@ -3,14 +3,12 @@ local idk = GUI:new()
 local win = idk:Tap("OpenSource Bypasser") -- v.1.0.2
 
 
+local GUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/Patskorn/GUI/main/Daino.lua"))()
+local idk = GUI:new()
+local win = idk:Tap("OpenSource Bypasser")
+
+
 win:Button("Cock",function()
-    local cock = "\209\129\208\190\209\129\208\186"
-	local A_2 = "All"
-	if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-		game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(cock)
-		else
-  game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1,cock)
-	 end
     local args = {
         [1] = "\209\129\208\190\209\129\208\186",
         [2] = "All"
@@ -21,13 +19,6 @@ win:Button("Cock",function()
 end)
 
 win:Button("Cum",function()
-    local cum = "\209\129u\208\188"
-	local A_2 = "All"
-	if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-		game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(cum)
-		else
-  game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1,cum)
-	 end
     local args = {
         [1] = "\209\129u\208\188",
         [2] = "All"
@@ -38,13 +29,6 @@ win:Button("Cum",function()
 end)
 
 win:Button("Porn",function()
-    local porn = "\209\128\208\190rn"
-	local A_2 = "All"
-	if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-		game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(porn)
-		else
-  game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1,porn)
-	 end
     local args = {
         [1] = "\209\128\208\190rn",
         [2] = "All"
@@ -55,13 +39,6 @@ win:Button("Porn",function()
 end)
 
 win:Button("Damn",function()
-    local damn = "d\208\176mn"
-	local A_2 = "All"
-	if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-		game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(damn)
-		else
-  game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1,damn)
-	 end
     local args = {
         [1] = "d\208\176mn",
         [2] = "All"
@@ -71,13 +48,6 @@ win:Button("Damn",function()
     print("Dirty Word Said!")
 end)
 win:Button("Ass",function()
-    local ass = "\208\176ss"
-	local A_2 = "All"
-	if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
-		game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(ass)
-		else
-  game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1,ass)
-	 end
     local args = {
         [1] = "\208\176ss",
         [2] = "All"
@@ -86,8 +56,3 @@ win:Button("Ass",function()
     game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
     print("Dirty Word Said!")
 end)
-
-    game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
-    print("Dirty Word Said!")
-end)
-
