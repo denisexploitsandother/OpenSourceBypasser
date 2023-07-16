@@ -1,0 +1,98 @@
+local GUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/Patskorn/GUI/main/Daino.lua"))()
+local idk = GUI:new()
+local win = idk:Tab("OpenSource Bypasser") -- v.1.02.02
+
+win:Button("Cock", function()
+    local cock = "\209\129\208\190\209\129\208\186"
+    local A_1 = game:GetService("Players").LocalPlayer
+    local A_2 = cock
+    
+    if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
+        game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(cock)
+    else
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
+    end
+    
+    print("Dirty Word Said!")
+end)
+
+win:Button("Cum", function()
+    local cum = "\209\129u\208\188"
+    local A_1 = game:GetService("Players").LocalPlayer
+    local A_2 = cum
+    
+    if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
+        game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(cum)
+    else
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
+    end
+    
+    print("Dirty Word Said!")
+end)
+
+win:Button("Porn", function()
+    local porn = "\209\128\208\190rn"
+    local A_1 = game:GetService("Players").LocalPlayer
+    local A_2 = porn
+    
+    if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
+        game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(porn)
+    else
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
+    end
+    
+    print("Dirty Word Said!")
+end)
+
+win:Button("Damn", function()
+    local damn = "d\208\176mn"
+    local A_1 = game:GetService("Players").LocalPlayer
+    local A_2 = damn
+    
+    if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
+        game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(damn)
+    else
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
+    end
+    
+    print("Dirty Word Said!")
+end)
+
+win:Button("Ass", function()
+    local ass = "\208\176ss"
+    local A_1 = game:GetService("Players").LocalPlayer
+    local A_2 = ass
+    
+    if game:GetService("TextChatService"):FindFirstChild("TextChannels") then
+        game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(ass)
+    else
+        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(A_1, A_2)
+    end
+    
+    print("Dirty Word Said!")
+end)
+        [2] = "All"
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+    print("Dirty Word Said!")
+end)
+
+win:Button("Damn",function()
+    local args = {
+        [1] = "d\208\176mn",
+        [2] = "All"
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+    print("Dirty Word Said!")
+end)
+win:Button("Ass",function()
+    local args = {
+        [1] = "\208\176ss",
+        [2] = "All"
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+    print("Dirty Word Said!")
+end)
