@@ -1,4 +1,7 @@
 # OpenSourceBypasser
+**WARNING**
+This is now patched, please wait for further bypasses.
+|||||||||||||||||||||||||||||||||||||||
 This is a chat bypasser for roblox that works on any executor and is opensource!
 
 LoadString Shortened: loadstring(game:HttpGet('https://raw.githubusercontent.com/denisexploitsandother/OpenSourceBypasser/main/bypassermain'))()
