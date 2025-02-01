@@ -1,6 +1,6 @@
 # OpenSourceBypasser
 **WARNING**
-This is now patched, please wait for further bypasses.
+# This is DEPRECATED, no updates to the code will be made.
 
 |||||||||||||||||||||||||||||||||||||||
 
