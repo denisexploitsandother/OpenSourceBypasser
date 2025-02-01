@@ -7,6 +7,4 @@ This uses a light ui libary and its not obfuscated so u can modify anything
 but dont use the same name.
 
 # Note
-This is a broken release branch that was planned to work with TextChatService And ClassicTextChatService
-but it never got here cuz it was Broken.
-Improve this branch by fixing the code!
+This release branch does not work with the latest ROBLOX.
