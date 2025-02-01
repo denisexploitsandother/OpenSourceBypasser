@@ -2,7 +2,7 @@
 **WARNING**
 # This is DEPRECATED, no updates to the code will be made.
 
-|||||||||||||||||||||||||||||||||||||||
+
 
 This is a chat bypasser for roblox that works on any executor and is opensource!
 
